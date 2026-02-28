@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="EduShare Hub — A modern educational platform where students, teachers, graduates, and senior citizens share knowledge and learn from each other." />
+  <title>EduShare Hub — Share Knowledge. Build the Future.</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#home" class="logo">
+        <div class="logo-icon">E</div>
+        EduShare Hub
+      </a>
+
+      <div class="nav-overlay" id="navOverlay"></div>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#courses">Courses</a></li>
+        <li><a href="#teacher">Become a Teacher</a></li>
+        <li><a href="#free-education">Free Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-right">
+        <a href="#" class="nav-login">Log In</a>
+        <a href="#" class="btn btn-primary nav-signup">Sign Up</a>
+      </div>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span>🎓</span> #1 Community-Driven Learning Platform
+        </div>
+        <h1>Share Knowledge.<br><span class="highlight">Build the Future.</span></h1>
+        <p class="hero-text">
+          EduShare Hub connects students, teachers, graduates, and senior citizens to share knowledge and learn from each other. Join a global community where everyone is both a learner and a mentor.
+        </p>
+        <div class="hero-buttons">
+          <a href="#courses" class="btn btn-primary">
+            Start Learning →
+          </a>
+          <a href="#teacher" class="btn btn-secondary">
+            Become a Teacher
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <h3>25K+</h3>
+            <p>Active Learners</p>
+          </div>
+          <div class="hero-stat">
+            <h3>3,200+</h3>
+            <p>Expert Instructors</p>
+          </div>
+          <div class="hero-stat">
+            <h3>500+</h3>
+            <p>Courses Available</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="images/hero-illustration.png" alt="EduShare Hub - Community learning together" />
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW IT WORKS ============ -->
+  <section class="how-it-works section-padding" id="about">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="accent-line"></div>
+        <h2>How It Works</h2>
+        <p>Getting started with EduShare Hub is simple. Three easy steps to begin your learning or teaching journey.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card fade-in">
+          <div class="step-number">01</div>
+          <div class="step-icon">👤</div>
+          <h3>Sign Up</h3>
+          <p>Create your free account in seconds. Choose whether you want to learn, teach, or both — it's completely up to you.</p>
+        </div>
+
+        <div class="step-card fade-in">
+          <div class="step-number">02</div>
+          <div class="step-icon">📖</div>
+          <h3>Learn or Teach</h3>
+          <p>Explore hundreds of courses or create your own. Share your skills with the world and learn from industry experts.</p>
+        </div>
+
+        <div class="step-card fade-in">
+          <div class="step-number">03</div>
+          <div class="step-icon">🏆</div>
+          <h3>Earn Knowledge or Income</h3>
+          <p>Gain valuable skills and certifications, or earn income by sharing your expertise. It's a win-win for everyone.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ POPULAR COURSES ============ -->
+  <section class="courses section-padding" id="courses">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="accent-line"></div>
+        <h2>Popular Courses</h2>
+        <p>Discover top-rated courses taught by experienced instructors. Something for every skill level.</p>
+      </div>
+
+      <div class="courses-grid">
+        <!-- Course 1 -->
+        <div class="course-card fade-in">
+          <div class="course-image">
+            <img src="images/course-digital-marketing.png" alt="Digital Marketing Course" />
+            <span class="course-tag">Bestseller</span>
+          </div>
+          <div class="course-body">
+            <h3>Digital Marketing Masterclass</h3>
+            <div class="course-instructor">
+              <div class="instructor-avatar">AR</div>
+              <span>Ayesha Rathore</span>
+            </div>
+            <div class="course-meta">
+              <div class="course-rating">
+                <span class="stars">★★★★★</span>
+                <span>(4.8)</span>
+              </div>
+              <span class="course-price">$49</span>
+            </div>
+            <button class="course-enroll">Enroll Now</button>
+          </div>
+        </div>
+
+        <!-- Course 2 -->
+        <div class="course-card fade-in">
+          <div class="course-image">
+            <img src="images/course-graphic-design.png" alt="Graphic Design Course" />
+            <span class="course-tag">Popular</span>
+          </div>
+          <div class="course-body">
+            <h3>Graphic Design for Beginners</h3>
+            <div class="course-instructor">
+              <div class="instructor-avatar">RK</div>
+              <span>Ravi Kumar</span>
+            </div>
+            <div class="course-meta">
+              <div class="course-rating">
+                <span class="stars">★★★★★</span>
+                <span>(4.7)</span>
+              </div>
+              <span class="course-price">$39</span>
+            </div>
+            <button class="course-enroll">Enroll Now</button>
+          </div>
+        </div>
+
+        <!-- Course 3 -->
+        <div class="course-card fade-in">
+          <div class="course-image">
+            <img src="images/course-english-speaking.png" alt="English Speaking Course" />
+            <span class="course-tag">Trending</span>
+          </div>
+          <div class="course-body">
+            <h3>English Speaking &amp; Communication</h3>
+            <div class="course-instructor">
+              <div class="instructor-avatar">SP</div>
+              <span>Sarah Parker</span>
+            </div>
+            <div class="course-meta">
+              <div class="course-rating">
+                <span class="stars">★★★★☆</span>
+                <span>(4.5)</span>
+              </div>
+              <span class="course-price">$29</span>
+            </div>
+            <button class="course-enroll">Enroll Now</button>
+          </div>
+        </div>
+
+        <!-- Course 4 -->
+        <div class="course-card fade-in">
+          <div class="course-image">
+            <img src="images/course-coding.png" alt="Coding Basics Course" />
+            <span class="course-tag">New</span>
+          </div>
+          <div class="course-body">
+            <h3>Coding Basics: HTML, CSS &amp; JS</h3>
+            <div class="course-instructor">
+              <div class="instructor-avatar">MJ</div>
+              <span>Michael James</span>
+            </div>
+            <div class="course-meta">
+              <div class="course-rating">
+                <span class="stars">★★★★★</span>
+                <span>(4.9)</span>
+              </div>
+              <span class="course-price">$59</span>
+            </div>
+            <button class="course-enroll">Enroll Now</button>
+          </div>
+        </div>
+
+        <!-- Course 5 -->
+        <div class="course-card fade-in">
+          <div class="course-image">
+            <img src="images/course-business.png" alt="Business Skills Course" />
+            <span class="course-tag">Top Rated</span>
+          </div>
+          <div class="course-body">
+            <h3>Business Skills &amp; Entrepreneurship</h3>
+            <div class="course-instructor">
+              <div class="instructor-avatar">NK</div>
+              <span>Neha Kapoor</span>
+            </div>
+            <div class="course-meta">
+              <div class="course-rating">
+                <span class="stars">★★★★★</span>
+                <span>(4.6)</span>
+              </div>
+              <span class="course-price">$44</span>
+            </div>
+            <button class="course-enroll">Enroll Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ BECOME A TEACHER ============ -->
+  <section class="become-teacher section-padding" id="teacher">
+    <div class="container">
+      <div class="teacher-content fade-in">
+        <div class="accent-line" style="margin:0 0 18px;"></div>
+        <h2>Share What You Know.<br><span class="highlight">Earn From Your Expertise.</span></h2>
+        <p>
+          Whether you're a professional, a graduate, or a senior citizen with decades of experience — EduShare Hub gives you the platform to teach the world and earn income from your knowledge.
+        </p>
+        <a href="#" class="btn btn-primary">Register as Instructor →</a>
+      </div>
+
+      <div class="teacher-benefits fade-in">
+        <div class="benefit-item">
+          <div class="benefit-icon">⏰</div>
+          <div>
+            <h4>Flexible Teaching</h4>
+            <p>Teach from anywhere, anytime. Set your own schedule and create courses at your own pace.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon">🌍</div>
+          <div>
+            <h4>Global Students</h4>
+            <p>Reach a worldwide audience of eager learners. Your knowledge has no borders.</p>
+          </div>
+        </div>
+
+        <div class="benefit-item">
+          <div class="benefit-icon">💰</div>
+          <div>
+            <h4>Earn From Knowledge</h4>
+            <p>Monetize your expertise. Set your own prices and earn income every time someone enrolls.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FREE EDUCATION PROGRAM ============ -->
+  <section class="free-education section-padding" id="free-education">
+    <div class="container">
+      <div class="free-content fade-in">
+        <div class="accent-line" style="margin:0 0 18px;"></div>
+        <h2>Free Education for<br><span class="highlight">Underprivileged Students</span></h2>
+        <p>
+          At EduShare Hub, we believe education is a right, not a privilege. Our Free Education Program provides online and offline classes to students who cannot afford paid courses — because every mind deserves a chance to grow.
+        </p>
+
+        <div class="free-features">
+          <div class="free-feature">
+            <div class="check">✓</div>
+            <span>Free Online Courses</span>
+          </div>
+          <div class="free-feature">
+            <div class="check">✓</div>
+            <span>Offline Community Classes</span>
+          </div>
+          <div class="free-feature">
+            <div class="check">✓</div>
+            <span>Scholarship Programs</span>
+          </div>
+          <div class="free-feature">
+            <div class="check">✓</div>
+            <span>Mentorship Support</span>
+          </div>
+        </div>
+
+        <a href="#" class="btn btn-primary">Support Education →</a>
+      </div>
+
+      <div class="free-illustration fade-in">
+        <div class="free-illustration-box">
+          <div class="free-illustration-icon">🎓</div>
+          <h3>Education for All</h3>
+          <p>Empowering underprivileged communities through knowledge and skill development.</p>
+          <div class="free-stats">
+            <div class="free-stat">
+              <h4>5,000+</h4>
+              <p>Students Helped</p>
+            </div>
+            <div class="free-stat">
+              <h4>120+</h4>
+              <p>Free Courses</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section class="testimonials section-padding" id="testimonials">
+    <div class="container">
+      <div class="section-header fade-in">
+        <div class="accent-line"></div>
+        <h2>What Our Learners Say</h2>
+        <p>Hear from real students who have transformed their careers and lives through EduShare Hub.</p>
+      </div>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-quote">"</div>
+          <p>EduShare Hub completely changed my career path. The Digital Marketing course helped me land a job at a top agency. The platform is so easy to use and the instructors are amazing.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">PA</div>
+            <div class="testimonial-info">
+              <h4>Priya Agarwal</h4>
+              <span>Marketing Specialist</span>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-quote">"</div>
+          <p>As a retired teacher, I found a second purpose here. I teach English speaking to students worldwide and the fulfilment I get is priceless. Plus, the extra income is a great bonus!</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RS</div>
+            <div class="testimonial-info">
+              <h4>Rajesh Sharma</h4>
+              <span>Retired Educator &amp; Instructor</span>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card fade-in">
+          <div class="testimonial-quote">"</div>
+          <p>The free education program gave me access to coding courses I could never have afforded. Now I'm building websites professionally. EduShare Hub literally changed my life.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AM</div>
+            <div class="testimonial-info">
+              <h4>Arjun Mehra</h4>
+              <span>Web Developer</span>
+              <div class="testimonial-stars">★★★★★</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="#home" class="logo">
+            <div class="logo-icon">E</div>
+            EduShare Hub
+          </a>
+          <p>
+            EduShare Hub is a community-driven learning platform connecting learners, educators, and mentors from around the world. Education for all — that's our promise.
+          </p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook">f</a>
+            <a href="#" aria-label="Twitter">𝕏</a>
+            <a href="#" aria-label="Instagram">◎</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+            <a href="#" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#teacher">Become a Teacher</a></li>
+            <li><a href="#free-education">Free Education</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <ul class="footer-contact">
+            <li>
+              <span class="icon">📍</span>
+              <span>123 Education Lane, Knowledge City, India</span>
+            </li>
+            <li>
+              <span class="icon">📧</span>
+              <span>hello@edusharehub.com</span>
+            </li>
+            <li>
+              <span class="icon">📞</span>
+              <span>+91 98765 43210</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        © 2026 <span>EduShare Hub</span>. All rights reserved. Made with ❤️ for learners worldwide.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
